@@ -5,3 +5,12 @@
  Code was edited to work for blackjack with the help of Chat GPT and Codeium AI. 
  ##
  The enviornment used for this project was Open AI's Toy Text Blackjack Enviornment.
+ ##
+ To run training: 
+ ''' bash
+ python fileName.py hyperparameterName --train
+ '''
+ To run testing:
+ ''' bash
+ python fileName.py hyperparameterName
+ '''
