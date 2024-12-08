@@ -1,0 +1,137 @@
+# Caroline Katko, Transy U
+# Original code: https://github.com/johnnycode8/dqn_pytorch
+# Modified by: Caroline Katko using Chat GPT and Codeium AI
+# hyperparameters.yml
+
+
+
+# hyperparameters for trial 0, 1 and 9
+blackjack0:
+  env_id: Blackjack-v1
+  replay_memory_size: 100000    
+  mini_batch_size: 64
+  epsilon_init: 1.0
+  epsilon_decay: 0.995
+  epsilon_min: 0.1
+  network_sync_rate: 500
+  learning_rate_a: 0.0001
+  discount_factor_g: 0.99
+  stop_on_reward: 1000000
+  fc1_nodes: 256
+  fc2_nodes: 256
+  fc3_nodes: 256
+  enable_double_dqn: True
+
+# hyperparameters for trial 2, 3 and 7
+blackjack1:
+  env_id: Blackjack-v1
+  replay_memory_size: 100000    
+  mini_batch_size: 64
+  epsilon_init: 1.0
+  epsilon_decay: 0.995
+  epsilon_min: 0.05
+  network_sync_rate: 500
+  learning_rate_a: 0.00001
+  discount_factor_g: 0.99
+  stop_on_reward: 1000000
+  fc1_nodes: 64
+  fc2_nodes: 96
+  fc3_nodes: 128
+  fc4_nodes: 192
+  fc5_nodes: 128
+  fc6_nodes: 96
+  fc7_nodes: 64
+  enable_double_dqn: True
+
+# hyperparameters for trial 4
+blackjack2:
+  env_id: Blackjack-v1
+  replay_memory_size: 100000    
+  mini_batch_size: 64
+  epsilon_init: 0.0
+  epsilon_decay: 0.995
+  epsilon_min: 0.0
+  network_sync_rate: 500
+  learning_rate_a: 0.0001
+  discount_factor_g: 0.99
+  stop_on_reward: 1000000
+  fc1_nodes: 64
+  fc2_nodes: 96
+  fc3_nodes: 128
+  fc4_nodes: 192
+  fc5_nodes: 128
+  fc6_nodes: 96
+  fc7_nodes: 64
+  enable_double_dqn: True
+
+# hyperparameters for trial 5
+blackjack3:
+  env_id: Blackjack-v1
+  replay_memory_size: 500000    
+  mini_batch_size: 64
+  epsilon_init: 1.0
+  epsilon_decay: 0.995
+  epsilon_min: 0.05
+  network_sync_rate: 500
+  learning_rate_a: 0.0001
+  discount_factor_g: 0.99
+  stop_on_reward: 1000000
+  fc1_nodes: 64
+  fc2_nodes: 64
+  fc3_nodes: 64
+  enable_double_dqn: True
+
+# hyperparameters for trials 6 and 8
+blackjack5:
+  env_id: Blackjack-v1
+  replay_memory_size: 200000    
+  mini_batch_size: 128         
+  epsilon_init: 1.0            
+  epsilon_decay: 0.995         
+  epsilon_min: 0.05            
+  network_sync_rate: 1000      
+  learning_rate_a: 0.0001      
+  discount_factor_g: 0.99     
+  stop_on_reward: 1000000      
+  fc1_nodes: 128               
+  fc2_nodes: 128               
+  fc3_nodes: 96                
+  fc4_nodes: 96                
+  fc5_nodes: 64                
+  fc6_nodes: 64                
+  fc7_nodes: 32                
+  enable_double_dqn: True      
+
+# hyperparameters for trial 10
+blackjack11:
+  env_id: Blackjack-v1
+  replay_memory_size: 500000    
+  mini_batch_size: 128
+  epsilon_init: 1.0
+  epsilon_decay: 0.995
+  epsilon_min: 0.1
+  network_sync_rate: 500
+  learning_rate_a: 0.0001
+  discount_factor_g: 0.99
+  stop_on_reward: 1000000
+  fc1_nodes: 256
+  fc2_nodes: 256
+  fc3_nodes: 256
+  enable_double_dqn: True
+
+# hyperparameters for trial 11
+blackjack11a:
+  env_id: Blackjack-v1
+  replay_memory_size: 500000    
+  mini_batch_size: 128
+  epsilon_init: 1.0
+  epsilon_decay: 0.999
+  epsilon_min: 0.1
+  network_sync_rate: 500
+  learning_rate_a: 0.00005
+  discount_factor_g: 0.99
+  stop_on_reward: 1000000
+  fc1_nodes: 256
+  fc2_nodes: 256
+  fc3_nodes: 256
+  enable_double_dqn: True
