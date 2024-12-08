@@ -7,10 +7,10 @@
  The enviornment used for this project was Open AI's Toy Text Blackjack Enviornment.
  ##
  To run training: 
- ''' bash
+ ``` bash
  python fileName.py hyperparameterName --train
- '''
+ ```
  To run testing:
- ''' bash
+ ``` bash
  python fileName.py hyperparameterName
- '''
+ ```
